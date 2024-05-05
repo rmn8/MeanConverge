@@ -36,9 +36,13 @@ Run  Convert_cram_to_bam.sh to find all the cram files and convert them to bam
 --------------
   ```./ Convert_cram_to_bam.sh```
 
-Run Find_Converage.sh to export mean coverage of each sample to output file
+Run MeanCoverage.sh to export mean coverage of each sample to output file
 --------------
-  ```./Find_Converage.sh ```
+  ```./MeanCoverage.sh ```
+This runs on bam file by default. use -c or --cram to run on cram files
+  ```./MeanCoverage.sh  -c```
+  ```./MeanCoverage.sh  --cram```
+  
 
 
 
